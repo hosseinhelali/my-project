@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.zorg</groupId>
 	<artifactId>zookeeper</artifactId>
-	<version>0.0.2-SNAPSHOT</version>
+	<version>0.0.2-feature-test-gitflow-SNAPSHOT</version>
 	<name>zookeeper</name>
 	<description>Demo project for Distributed System</description>
 	<properties>
