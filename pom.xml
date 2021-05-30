@@ -94,6 +94,9 @@
 					<!-- optional configuration -->
 					<gitFlowConfig>
 						<developmentBranch>master</developmentBranch>
+						<origin>
+							<fetchRemote>false</fetchRemote>
+						</origin>
 					</gitFlowConfig>
 				</configuration>
 			</plugin>
