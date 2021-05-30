@@ -8,7 +8,7 @@ class ClusterManager {
 
     fun getLeaderNodeData(){
         var zkClient = ZooKeeper("localhost", 5000, Watcher {
-
+            print("this is a test")
         })
 
         if ( zkClient.exists("/election", false) == Stat()) {
