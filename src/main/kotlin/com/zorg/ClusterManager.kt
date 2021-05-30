@@ -2,6 +2,7 @@ package com.zorg
 
 import org.apache.zookeeper.Watcher
 import org.apache.zookeeper.ZooKeeper
+import org.apache.zookeeper.data.Stat
 
 class ClusterManager {
 
@@ -10,8 +11,8 @@ class ClusterManager {
 
         })
 
-//        if ( zkClient.exists("/election", true)) {
-//            throw RuntimeException("No node /election2 exists");
-//        }
+        if ( zkClient.exists("/election", false) == Stat()) {
+            throw RuntimeException("No node /election2 exists");
+        }
     }
 }
